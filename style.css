@@ -219,16 +219,21 @@ footer {
 }
 
 .scroll {
-  width: 40px;
-  height: 40px;
-  border-radius: 15px;
-  background-color: #ffcf00;
+  
+  border-radius: 50%;
+  
   position: fixed;
   right: 20px;
   bottom: 20px;
   z-index: 999;
   cursor: pointer;
   display: none;
+  width: 0; 
+  height: 0; 
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 25px solid #ffcf00;
+
 }
 
 html {
