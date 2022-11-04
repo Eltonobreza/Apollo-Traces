@@ -8,13 +8,15 @@
   text-decoration: none;
 }
 
+
+
 header {
   width: 100%;
   height: 150px;
-  background-color: #ffcf00;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  border-bottom: 1px solid #63e4f2;
 }
 
 .logo {
@@ -30,31 +32,40 @@ nav .menu {
 }
 
 .links a {
-  color: black;
+  color: #301840;
 }
 
 .links a:hover {
   color: #f2aa52;
   transition: 0.3s;
-  border-bottom: 1px solid #301840;
+  border-bottom: 1px solid #f2aa52;
 }
 
 main {
   display: flex;
   justify-content: center;
   height: 800px;
+
+ 
+  
 }
 
 .container {
   display: flex;
   justify-content: center;
-  width: 1000px;
+  width: 100%;
   height: 510px;
-  background-color: #ffcf00;
-  margin-top: 50px;
+  background-color: #301840;
   align-items: center;
   text-align: center;
   border-radius: 10px;
+  
+ 
+}
+
+.astronauta{
+  width: 100px;
+  height: 100px;
 }
 
 .title-form {
@@ -63,7 +74,7 @@ main {
 }
 
 .formulario {
-  width: 500px;
+  width: 900px;
   height: 400px;
   background-color: aliceblue;
   align-items: center;
@@ -72,6 +83,7 @@ main {
   font-weight: bold;
   display: flex;
   flex-direction: column;
+  
 }
 
 label {
@@ -219,8 +231,9 @@ footer {
 }
 
 .scroll {
-  
-  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border-radius: 15px;
   
   position: fixed;
   right: 20px;
@@ -228,14 +241,15 @@ footer {
   z-index: 999;
   cursor: pointer;
   display: none;
-  width: 0; 
-  height: 0; 
-  border-left: 35px solid transparent;
-  border-right: 35px solid transparent;
-  border-bottom: 25px solid #ffcf00;
-
+  display: flex;
+  
 }
 
+.img-scroll{
+  width: 50px;
+  height: 50px;
+
+}
 html {
   scroll-behavior: smooth;
 }
