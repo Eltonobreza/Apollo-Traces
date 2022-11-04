@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Apollo Traces - Acompanhe suas compras online</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="./assets/Apollo Traces.png" alt="Logo" />
+
+      <nav class="links">
+        <ul class="menu">
+          <li><a href="#p0">Rastreio</a></li>
+          <li><a href="#p1">Logística</a></li>
+          <li><a href="#p2">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="p0" class="container">
+        <form class="formulario">
+          <h2 class="title-form">Rastreie sua encomenda</h2>
+
+          <br />
+
+          <label for="name">Nome</label>
+          <input
+            class="nome"
+            id="name"
+            type="text"
+            required
+            placeholder="Digite seu nome completo"
+          />
+          <br /><br />
+
+          <label for="email">Email</label>
+          <input
+            class="email"
+            id="email"
+            type="email"
+            required
+            placeholder="Digite seu Email"
+          />
+          <br /><br />
+
+          <label for="CPF"> </label>
+          <input
+            class="CPF"
+            id="CPF"
+            type="text"
+            required
+            placeholder="Digite seu código de rastreio"
+          />
+
+          <br />
+          <br />
+
+          <input class="botao" type="submit" value="Rastrear" />
+        </form>
+      </div>
+    </main>
+    <div class="subtitle">
+      <h2 id="p1">
+        Como rastrear objetos, encomendas ou pacotes no Apollo Traces em 3
+        passos:
+      </h2>
+    </div>
+    <section>
+      <div class="container-cards">
+        <div class="card">
+          <h3 class="title-card">Cadastre os códigos de objetos</h3>
+          <img
+            class="img-card"
+            src="./assets/leitor-de-codigos-de-barra.png"
+            alt=""
+          />
+          <p class="text-card">
+            Comprou aquele presente bonitinho na China? Enviou um documento para
+            um amigo? Está aguardando um perfume? Quer apenas monitorar um
+            pacote? Você só precisa nos informar o código de rastreamento que
+            organizamos tudo pra você.
+          </p>
+        </div>
+        <div class="card">
+          <h3 class="title-card">Correios, China Post, Aliexpress, Shopee</h3>
+          <img class="img-card" src="./assets/caixas.png" alt="" />
+          <p class="text-card">
+            Gerencie todas as suas encomendas num só local. Saiba quais pacotes
+            foram tributados, quais estão chegando, quais estão atrasados e
+            muitos mais! Tudo isso numa interface simplificada, com filtros,
+            nomes, tags. E ainda totalmente integrado ao seu telefone através
+            dos nossos aplicativos!
+          </p>
+        </div>
+        <div class="card">
+          <h3 class="title-card">Fique ligado nas notificações</h3>
+          <img class="img-card" src="./assets/notificacoes.png" alt="" />
+          <p class="text-card">
+            Seja notificado todas as vezes que ocorrer qualquer mudança nos seus
+            rastreios. O Apollo Traces avisa você por e-mail, ou no seu celular.
+            Tudo isso de forma simples e rápida, para que você saiba onde e
+            quando chegará seu pacote.
+          </p>
+        </div>
+      </div>
+    </section>
+    <article>
+      <h2 id="p2" class="subtitle-quest">Perguntas frequentes</h2>
+
+      <div class="questions">
+        <h3 class="question-title">O que é o Apollo Traces?</h3>
+        <p class="question-text">
+          O Apollo Traces é a forma mais inteligente e prática para rastreio
+          Correios e outras empresas. O Apollo Traces funciona de forma
+          automatizada, e monitora constantemente os pacotes que você cadastrar
+          na sua conta. Todas as vezes que é detectado uma mudança no rastreio
+          do pacote, o Apollo Traces te avisa por e-mail ou pelo melhor
+          aplicativo de rastreamento, disponível para Android, iOS e Windows
+          Phone.
+        </p>
+
+        <h3 class="question-title">É facil rastrear objetos pelo Muambator?</h3>
+        <p class="question-text">
+          O Apollo Traces é a melhor opção para rastrear pacotes. E você precisa
+          fazer só uma coisa: cadastrar o código de rastreio. Deixa todo o resto
+          conosco. Simples, fácil, inteligente e grátis!
+        </p>
+
+        <h3 class="question-title">
+          Como é um código de rastreio dos Correios?
+        </h3>
+        <p class="question-text">
+          Um código de rastreio emitido pelos Correios, tem o seguinte formato
+          de apresentação: LLNNNNNNNNNBR. São duas letras, seguidas por nove
+          números mais duas letras com final BR. As primeiras duas letras
+          indicam o tipo da encomenda (se é Sedex, PAC, Carta Registrada). Os
+          oito primeiros números são o código de identificação da encomenda. O
+          nono número, é um dígito verificador, muito semelhante aos dois
+          últimos dígitos de um CPF e/ou CNPJ.
+        </p>
+      </div>
+    </article>
+
+    <footer>Copyright © 2022 Elton Nobreza</footer>
+
+    <div onclick="subirTela()" class="scroll"></div>
+
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>
